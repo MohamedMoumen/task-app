@@ -29,14 +29,13 @@ A task management application built with **Next.js 14**. The app allows users to
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/MohamedMoumen/task-app.git
-   cd task-kanban-app```
+   cd task-app```
    
    
    
 ### Install Dependencies
 ```bash
-   git clone https://github.com/MohamedMoumen/task-app.git
-   cd task-kanban-app
+   npm i --save
 ```
 
 
@@ -68,7 +67,7 @@ docker build -t task--app .
 - Run the Docker container:
 
 ```
-docker run -p 3000:3000 task-kanban-app
+docker run -p 3000:3000 task-app
 ```
 
 ## Usage
